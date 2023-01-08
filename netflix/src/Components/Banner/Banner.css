@@ -1,0 +1,60 @@
+.banner-cover{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+}
+.banner{
+
+    background-color: rgb(71, 71, 71);
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat; 
+    color: white;
+    width: 100%;
+    height: 390px;
+}
+.banner-gradient{
+    width: 100%;
+    height: 390px;
+    background-image: linear-gradient(to bottom, rgba(33,33,33,0), rgba(33,33,33,1));
+    padding-top: 30px;  
+
+}
+.content{
+    padding: 15px;
+
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.buttom{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 25px;
+    cursor: pointer;
+}
+.buttom:hover{
+    color: black;
+    background-color: rgb(154, 152, 152);
+}
+.discription{
+    width: 45rem;
+    line-height: 1.3rem;
+    padding-top: 10px;
+    height: 80px;
+    font-size: 1rem;
+    max-width: 80%;
+}
+.fade_bottom{
+    height: 70px;
+}
